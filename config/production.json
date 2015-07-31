@@ -40,10 +40,5 @@
       "error": "ALL"
     },
     "replaceConsole": true
-  },
-  "fluentd": {
-    "host": "",
-    "port": "",
-    "timeout": 3.0
   }
 }
