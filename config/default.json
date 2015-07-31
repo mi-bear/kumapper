@@ -1,0 +1,17 @@
+{
+  "name": "default",
+  "meta": {
+    "title": "kumapper",
+    "description": "kumapper",
+    "keywords": [
+      "熊"
+    ],
+    "robots": [
+      "INDEX",
+      "FOLLOW",
+      "NOODP",
+      "NOYDIR",
+      "NOARCHIVE"
+    ]
+  }
+}

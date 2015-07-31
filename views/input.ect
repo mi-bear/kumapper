@@ -1,0 +1,36 @@
+<% extend 'layout' %>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="/stylesheets/input.css"></link>
+  <div class="container">
+    <div class="page-header">
+      <h1 id="title"><%= @title %></h1>
+    </div>
+    <div class="bs-docs-section">
+      <div class="row">
+      <div class="col-lg-6">
+      <div class="well bs-component">
+        <form action="" method="" name="form" id="form" class="form-horizontal">
+          <div class="form-group">
+            <div class="input-group">
+              <input type="text" id="input_message" autocomplete="off" class="form-control" maxlength="18">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-primary">done</button>
+              </span>
+            </div>
+            <span class="help-block"><span id="text_count" class="badge">0/18</span>1回につき18文字までつぶやけます</span>
+          </div>
+        </form>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="bs-docs-section">
+      <div class="row">
+        <ul id="messages" class="list-group"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="//cdn.socket.io/socket.io-1.2.0.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="/javascripts/input.js"></script>
